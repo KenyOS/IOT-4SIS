@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T15:33:30.149Z" agent="5.0 (X11)" etag="Zme9NpEXePSqUzzWSnSC" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T16:19:47.567Z" agent="5.0 (X11)" etag="3GH5Tff877TCKNQIrmGp" version="14.4.7" type="github">
   <diagram id="IabyM-OrlG6QpsjuMS36" name="Page-1">
     <mxGraphModel dx="796" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="580" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="SjnDPat0Ablx4HNNAHqW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="480" width="550" height="150" as="geometry" />
         </mxCell>
@@ -120,6 +123,48 @@
         </mxCell>
         <mxCell id="SjnDPat0Ablx4HNNAHqW-3" value="MQTT BROKER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
           <mxGeometry x="180" y="550" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-5" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.cloud_computing;fontSize=23;fillColor=#0892C7;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="338.13" y="13" width="93.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-6" value="AWS IOT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="325.88" y="73" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-7" value="AWS DYNAMODB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="125.5" y="110" width="114.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-8" value="&lt;div&gt;AWS LAMBDA&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="145.5" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-9" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-10" value="&lt;div style=&quot;font-size: 25px&quot;&gt;WEB Server&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-11" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.145;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.155;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SjnDPat0Ablx4HNNAHqW-1" target="SjnDPat0Ablx4HNNAHqW-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-13" value="Publish" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="129.75" y="330" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-14" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0.463;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SjnDPat0Ablx4HNNAHqW-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="249" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-16" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="SjnDPat0Ablx4HNNAHqW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="523" y="373" as="sourcePoint" />
+            <mxPoint x="530" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjnDPat0Ablx4HNNAHqW-17" value="&lt;div&gt;Subscribe&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
